@@ -9,7 +9,6 @@ data(all_hgnc_wtEntrez)
 base_dir = '/home/mwang/cell_type_data/lake_dfc'
 load(paste0(base_dir, '/cell_type_ewce_lake_dfc.rda'), verbose=T)
 dfc_ctd = ctd
-dfc_ctd = prepare.quantile.groups(dfc_ctd, specificity_species="human", numberOfBins=40)
 
 fine_cells = colnames(dfc_ctd[[1]]$mean_exp)
 dfc_fine_mean_exp         = as.data.frame(dfc_ctd[[1]]$mean_exp)
