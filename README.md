@@ -1,6 +1,6 @@
 # scz_cross-scale_abnormalities
 
-This repository (still being updated) houses the core codes used in the paper "***Neuroimaging and multiomics reveal cross-scale circuit abnormalities in schizophrenia***".     
+This repository houses the core codes used in the paper "***Neuroimaging and multiomics reveal cross-scale circuit abnormalities in schizophrenia***".     
 
 ---
 
